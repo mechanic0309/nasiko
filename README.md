@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Nasiko Logo](docs/architecture.png)
+
 
 **AI Agent Registry and Orchestration Platform**
 
