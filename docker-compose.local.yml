@@ -91,7 +91,6 @@ services:
   # ============================================================================
   nasiko-auth-service:
     image: docker.io/karannasiko/nasiko-auth:latest
-    platform: linux/amd64
     container_name: nasiko-auth-service
     restart: unless-stopped
     depends_on:
@@ -231,7 +230,7 @@ services:
       KONG_ADMIN_URL: http://kong-gateway:8001
       DOCKER_SOCKET: /var/run/docker.sock
       REGISTRY_INTERVAL: 30
-      AGENTS_NETWORK: core_agents-net
+      AGENTS_NETWORK: nasiko_agents-net
       K8S_ENABLED: "false"
       KONG_AUTH_HOST: nasiko-auth-service
       KONG_BACKEND_HOST: nasiko-backend
@@ -308,7 +307,6 @@ services:
   # ============================================================================
   nasiko-web:
     image: docker.io/karannasiko/nasiko-web:latest
-    platform: linux/amd64
     container_name: nasiko-web
     restart: unless-stopped
     depends_on:
@@ -373,7 +371,7 @@ services:
       REDIS_HOST: redis
       REDIS_PORT: 6379
       REDIS_DB: 0
-      DOCKER_NETWORK: core_agents-net
+      DOCKER_NETWORK: nasiko_agents-net
       NASIKO_API_URL: http://nasiko-backend:8000
       KONG_GATEWAY_URL: http://localhost:9100
       K8S_ENABLED: "false"
